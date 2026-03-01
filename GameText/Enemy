@@ -21,7 +21,6 @@ public abstract class Enemy {
     }
 }
 
-package Enemy;
 
 public class Boss extends Enemy {
     public Boss() {
@@ -50,7 +49,6 @@ public class Boss extends Enemy {
     }
 }
 
-package Enemy;
 
 public class Mobs extends Enemy {
     public Mobs(String name, int hp, int def) {
