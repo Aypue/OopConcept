@@ -25,3 +25,21 @@ class Main{
         }
 
         world.start();
+
+        System.out.println("\nChoose Character:");
+        System.out.println("1. Male");
+        System.out.println("2. Female");
+
+        int charChoice = output.nextInt();
+
+        Character player;
+
+        if (charChoice == 1) {
+            player = new MaleCharacter();
+        } else {
+            player = new FemaleCharacter();
+        }
+
+        System.out.println("\nCharacter Selected!");
+        player.skill();
+
